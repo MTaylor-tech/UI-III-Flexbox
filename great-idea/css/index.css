@@ -251,6 +251,12 @@ img.services-info-img {
 	margin-top: 20px;
 }
 
+iframe {
+	display: inline-block;
+	border: 1px solid black
+	margin-bottom: 10px;
+}
+
 .contact-section {
 	margin: 50px;
 }
