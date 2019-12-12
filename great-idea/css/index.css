@@ -236,6 +236,13 @@ img.services-info-img {
 	margin-bottom: 30px;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+.service {
+    width: 100%;
+  }
+}
+
 .service a {
 	display: inline-block;
 	border: 1px solid black;
