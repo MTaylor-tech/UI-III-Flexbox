@@ -218,7 +218,6 @@ img.services-info-img {
 	width: 48%;
 }
 
-@media only screen and (min-width : 813px) {
 	.services-box {
 		display: flex;
 		flex-direction: row;
@@ -236,7 +235,6 @@ img.services-info-img {
 		padding: 20px;
 		margin-bottom: 30px;
 	}
-}
 
 @media only screen and (max-width : 812px) {
   /* For mobile phones: */
@@ -245,6 +243,7 @@ img.services-info-img {
 			background-color: #F2F3F4;
 			border: 1px solid black;
 			padding: 20px;
+			margin-bottom: 0px;
 	  }
 
 	.services-box {
