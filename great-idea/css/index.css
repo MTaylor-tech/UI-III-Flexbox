@@ -218,34 +218,44 @@ img.services-info-img {
 	width: 48%;
 }
 
-.services-box {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	padding-top: 30px;
-	border-bottom: 2px solid black;
-	margin-bottom: 20px;
-}
+@media only screen and (min-device-width: 813px) {
+	.services-box {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding-top: 30px;
+		border-bottom: 2px solid black;
+		margin-bottom: 20px;
+	}
 
-.service {
-	width: 48%;
-	background-color: #F2F3F4;
-	border: 1px solid black;
-	padding: 20px;
-	margin-bottom: 30px;
+	.service {
+		width: 48%;
+		background-color: #F2F3F4;
+		border: 1px solid black;
+		padding: 20px;
+		margin-bottom: 30px;
+	}
 }
 
 @media only screen and (max-device-width: 812px) {
   /* For mobile phones: */
-.service {
-    width: 100%;
-  }
+	.service {
+	    width: 100%;
+			background-color: #F2F3F4;
+			border: 1px solid black;
+			padding: 20px;
+	  }
 
-.services-box {
-	flex-direction: column;
-	flex-wrap: nowrap;
-}
+	.services-box {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		padding-top: 30px;
+		border-bottom: 2px solid black;
+		margin-bottom: 20px;
+	}
 }
 
 .service a {
