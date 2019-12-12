@@ -218,7 +218,7 @@ img.services-info-img {
 	width: 48%;
 }
 
-@media only screen and (min-device-width: 813px) {
+@media only screen and (min-width : 813px) {
 	.services-box {
 		display: flex;
 		flex-direction: row;
@@ -238,7 +238,7 @@ img.services-info-img {
 	}
 }
 
-@media only screen and (max-device-width: 812px) {
+@media only screen and (max-width : 812px) {
   /* For mobile phones: */
 	.service {
 	    width: 100%;
