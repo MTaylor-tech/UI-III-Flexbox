@@ -285,6 +285,58 @@ img.services-info-img {
 	}
 }
 
+/* iphone x */
+@media only screen
+and (max-width : 896px) 
+and (-webkit-device-pixel-ratio : 3) {
+	.service {
+	    width: 100%;
+			background-color: #F2F3F4;
+			border: 1px solid black;
+			padding: 20px;
+			margin-bottom: 0px;
+	  }
+
+	.services-box {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		padding-top: 30px;
+		border-bottom: 2px solid black;
+		margin-bottom: 20px;
+	}
+
+	header nav {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: 20px;
+		margin-top: 100px;
+		width: 95%;
+	}
+
+	header nav a {
+		color: grey;
+		text-decoration: none;
+		border: 1px solid black;
+		height: 40px;
+		font-size: 20px;
+		text-align: center;
+		margin: 10px;
+		padding: 7px;
+	}
+
+	img.logo {
+		display: inline-block;
+		position: absolute;
+	  top: -40px;
+		left: 55%;
+	  transform: translateX(-50%);
+	}
+
+}
+
 .service a {
 	display: inline-block;
 	border: 1px solid black;
