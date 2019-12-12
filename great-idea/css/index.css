@@ -241,6 +241,11 @@ img.services-info-img {
 .service {
     width: 100%;
   }
+
+.services-box {
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
 }
 
 .service a {
