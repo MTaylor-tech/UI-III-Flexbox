@@ -287,8 +287,8 @@ img.services-info-img {
 
 /* iphone x */
 @media only screen
-and (max-width : 896px) 
-and (-webkit-device-pixel-ratio : 3) {
+and (max-width : 896px)
+and (-webkit-device-pixel-ratio : 2), (-webkit-device-pixel-ratio : 3) {
 	.service {
 	    width: 100%;
 			background-color: #F2F3F4;
