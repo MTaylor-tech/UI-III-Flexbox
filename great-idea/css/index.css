@@ -218,23 +218,23 @@ img.services-info-img {
 	width: 48%;
 }
 
-	.services-box {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		padding-top: 30px;
-		border-bottom: 2px solid black;
-		margin-bottom: 20px;
-	}
+.services-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 30px;
+	border-bottom: 2px solid black;
+	margin-bottom: 20px;
+}
 
-	.service {
-		width: 48%;
-		background-color: #F2F3F4;
-		border: 1px solid black;
-		padding: 20px;
-		margin-bottom: 30px;
-	}
+.service {
+	width: 48%;
+	background-color: #F2F3F4;
+	border: 1px solid black;
+	padding: 20px;
+	margin-bottom: 30px;
+}
 
 @media only screen and (max-width : 896px) {
   /* For mobile phones: */
