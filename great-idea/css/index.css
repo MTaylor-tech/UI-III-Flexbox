@@ -236,7 +236,8 @@ img.services-info-img {
 	margin-bottom: 30px;
 }
 
-@media only screen and (max-width : 896px) {
+@media only screen and (max-width : 896px),
+			 only screen and (max-height : 896px) {
   /* For mobile phones: */
 	.service {
 	    width: 100%;
@@ -286,9 +287,7 @@ img.services-info-img {
 }
 
 /* iphone x */
-@media only screen
-and (max-width : 896px)
-and (-webkit-device-pixel-ratio : 2), (-webkit-device-pixel-ratio : 3) {
+@media only screen and (max-width : 896px) {
 	.service {
 	    width: 100%;
 			background-color: #F2F3F4;
