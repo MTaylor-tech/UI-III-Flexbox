@@ -236,7 +236,7 @@ img.services-info-img {
 	margin-bottom: 30px;
 }
 
-@media only screen and (max-width: 812px) {
+@media only screen and (max-device-width: 812px) {
   /* For mobile phones: */
 .service {
     width: 100%;
