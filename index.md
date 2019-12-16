@@ -1,18 +1,21 @@
-## User Interface Project: Great Ideas Website
+## User Interface Project: Great Ideas Website with Flexbox
 
 [Back to Portfolio](https://majikpig.github.io)
 
 ### The Challenge
-To create a webpage from a design document.
+* To create a webpage from a design document using Flexbox (display: flex;).
+* Refactor the home page layout with flexbox where `inline-block` was used before.
+* Using the provided [design file](design-files/services-desktop-design.png), create the services page layout using flexbox and box model.
 
-[The design document](/design-files/desktop.jpg)
+[The design document for the index page](/design-files/desktop.jpg)
+[The webpage I created](/great-idea/index.html)
 
-[The webpage I created](/great-idea-website/index.html)
+[The design file for the 'services' page](design-files/services-desktop-design.png)
+[The services page I created](/great-idea/services.html)
 
 ### Stretch Challenges
 
-- Give the navigation a background color and have it be fixed to the top of the page so that it scrolls with the user. You will want to study what z-index means in case you encounter any issues when you scroll.
-- Introduce a new font family from [google fonts](https://fonts.google.com/)
-- Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items **Mouse over `Get Started` button on `index2.html`**
+* Create another page based on one of the navigation items in addition to services.  Try to create a layout that follows the patterns of the first two designs but with your own creative twist.  Use lorem ipsum text for all your content.
+* Introduce media queries into your services page to create a mobile view that stacks all the boxes on top of each other on phone but looks like the layout file on desktop.
 
-[The stretch challenge webpage I created](/great-idea-website/index2.html)
+[The stretch challenge page I created](/great-idea/contact.html)
