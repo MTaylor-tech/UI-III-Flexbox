@@ -8,9 +8,12 @@
 * Using the provided [design file](design-files/services-desktop-design.png), create the services page layout using flexbox and box model.
 
 [The design document for the index page](/design-files/desktop.jpg)
+
 [The webpage I created](/great-idea/index.html)
 
+
 [The design file for the 'services' page](design-files/services-desktop-design.png)
+
 [The services page I created](/great-idea/services.html)
 
 ### Stretch Challenges
